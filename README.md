@@ -1,0 +1,2 @@
+# Query-To-Create-Automatic-Create-Table-Statement
+This SQL query creates a CREATE TABLE statement automatically just providing the DatabaseName and TableName of the table for which you want to build the creation statement, setting automatically the right datatype for each column. It is optimized to run in a Teradata RDBMS since uses some specific dictionary tables, but it is easily translatable in every RDBMS, just change the dictionary tables DBC.Databases, DBC.Tables, DBC.Columns.
